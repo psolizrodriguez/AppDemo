@@ -19,17 +19,17 @@ The solution was built with "Spring Tool Suite" and packed with maven.
 1) Open the project with your preferred IDE (Strongly suggest using IntelliJ IDE).
 2) Create the **demo** schema in your local MySQL server. (MySQL v5.5 is recommended)
 3) Add a demo user with **demo** and password **password** and grant all permissions to your **demo** database
-4) Create the folder /opt/img and grant read and write permissions
+4) Create the folder **/opt/img** and grant read and write permissions
 5) Run Application class
 6) Access the UI at [http://localhost:8080](http://localhost:8080)
 
 ## Package Structure
-**-com.solstice.contact:** Contains the Spring Boot main class (Application.java) and the sample JUnit Test case (ContactControllerTest.java).  
-**-com.solstice.contact.utils:** Classes for image processing.  
-**-com.solstice.contact.domain:** Contains the Entities.   
-**-com.solstice.contact.repository:** Contains the Repository Classes layer.  
-**-com.solstice.contact.service:** Contains the Service layer.  
-**-com.solstice.contact.web:** Contains the Controllers with the Restful Services.
+**-com.demo.contact:** Contains the Spring Boot main class (Application.java) and the sample JUnit Test case (ContactControllerTest.java).  
+**-com.demo.contact.utils:** Classes for image processing.  
+**-com.demo.contact.domain:** Contains the Entities.   
+**-com.demo.contact.repository:** Contains the Repository Classes layer.  
+**-com.demo.contact.service:** Contains the Service layer.  
+**-com.demo.contact.web:** Contains the Controllers with the Restful Services.
 
 ## Class Diagram  
 ![Class Diagram](https://i.imgur.com/jQ3zazu.png)  
