@@ -57,3 +57,6 @@ target/classes/public/styles/main.css
 target/maven-archiver/pom.properties
 target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/AppDemo.iml
+/.idea/
+/target/
