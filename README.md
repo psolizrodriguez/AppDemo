@@ -1,4 +1,4 @@
-# Backend Coding Challenge for Nearsure 
+# Coding Challenge for Nearsure 
 
 ## Scope
 Develop a RESTful API that would allow a web or mobile front-end to:  
@@ -9,11 +9,7 @@ Develop a RESTful API that would allow a web or mobile front-end to:
 -Search for a record by email or phone number  
 -Retrieve all records from the same state or city  
 The contact record should represent the following information: name, company, profile image, email, birthdate, phone number (work, personal) and address .  
-Also please provide a unit test for at least one of the endpoints you create.  
-
-## Description
-
-The solution was built with "Spring Tool Suite" and packed with maven.
+Also please provide a unit test for at least one of the endpoints you create.
 
 ## How to run
 1) Open the project with your preferred IDE (Strongly suggest using IntelliJ IDE).
